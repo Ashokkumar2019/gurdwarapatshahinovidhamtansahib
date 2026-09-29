@@ -13,6 +13,11 @@ import {
   X
 } from 'lucide-react'
 import './styles.css'
+import img2 from "./img/img2.jpg";
+import img3 from "./img/img3.png";
+import img4 from "./img/img4.jpg";
+import img5 from "./img/img5.jpg";
+import map from "./img/map.png";
 
 const translations = {
   pa: {
@@ -102,9 +107,9 @@ const translations = {
 }
 
 const gallery = [
-  { src: 'img/img3.png?auto=format&fit=crop&w=1000&q=85', alt: 'Heritage architecture' },
-  { src: 'img/img4.jpg?auto=format&fit=crop&w=1000&q=85', alt: 'Temple architecture' },
-  { src: 'img/img5.jpg?auto=format&fit=crop&w=1000&q=85', alt: 'Indian heritage' },
+  { src: '/img3.png?auto=format&fit=crop&w=1000&q=85', alt: 'Heritage architecture' },
+  { src: '/img4.jpg?auto=format&fit=crop&w=1000&q=85', alt: 'Temple architecture' },
+  { src: '/img5.jpg?auto=format&fit=crop&w=1000&q=85', alt: 'Indian heritage' },
 ]
 
 function App() {
@@ -199,7 +204,7 @@ function App() {
         <section id="history" className="section about">
           <div className="container split">
             <div className="image-frame">
-              <img src="img/img2.jpg?auto=format&fit=crop&w=1200&q=85" alt="Dhamtan Sahib heritage placeholder" />
+              <img src="/img2.jpg?auto=format&fit=crop&w=1200&q=85" alt="Dhamtan Sahib heritage placeholder" />
               <div className="image-caption"><span>ਧ</span> {t.footer}</div>
             </div>
             <div className="section-copy">
@@ -259,7 +264,7 @@ function App() {
               </div>
             </div>
             <div className="map-placeholder">
-               <img src="img/map.png?auto=format&fit=crop&w=550&q=390" alt="Dhamtan Sahib heritage placeholder" />
+               <img src="/map.png?auto=format&fit=crop&w=550&q=390" alt="Dhamtan Sahib heritage placeholder" />
 
             </div>
           </div>
