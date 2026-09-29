@@ -107,9 +107,9 @@ const translations = {
 }
 
 const gallery = [
-  { src: '/img3.png?auto=format&fit=crop&w=1000&q=85', alt: 'Heritage architecture' },
-  { src: '/img4.jpg?auto=format&fit=crop&w=1000&q=85', alt: 'Temple architecture' },
-  { src: '/img5.jpg?auto=format&fit=crop&w=1000&q=85', alt: 'Indian heritage' },
+  { src: img3, alt: 'Heritage architecture' },
+  { src: img4, alt: 'Temple architecture' },
+  { src: img5, alt: 'Indian heritage' },
 ]
 
 function App() {
@@ -204,7 +204,7 @@ function App() {
         <section id="history" className="section about">
           <div className="container split">
             <div className="image-frame">
-              <img src="/img2.jpg?auto=format&fit=crop&w=1200&q=85" alt="Dhamtan Sahib heritage placeholder" />
+              <img src={img2} alt="Dhamtan Sahib heritage placeholder" />
               <div className="image-caption"><span>ਧ</span> {t.footer}</div>
             </div>
             <div className="section-copy">
@@ -264,7 +264,7 @@ function App() {
               </div>
             </div>
             <div className="map-placeholder">
-               <img src="/map.png?auto=format&fit=crop&w=550&q=390" alt="Dhamtan Sahib heritage placeholder" />
+               <img src={map} alt="Dhamtan Sahib heritage placeholder" />
 
             </div>
           </div>
